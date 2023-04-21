@@ -14,10 +14,10 @@ function App() {
         </Link>
 
         <Link to="About" className="tltle-text">
-          About
+          <span className="title-text2">About</span>
         </Link>
         <Link to="Projects" className="tltle-text">
-          Projects
+          <span className="title-text2">Projects</span>
         </Link>
       </header>
     </div>

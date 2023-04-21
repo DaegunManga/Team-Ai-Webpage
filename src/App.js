@@ -3,7 +3,6 @@ import { useState } from "react";
 import React from "react";
 
 import logo from "./image/ailogo.png";
-import ldw from "./image/ldw.jpg";
 
 import "./App.css";
 import About from "./pages/About.js";

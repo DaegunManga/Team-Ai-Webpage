@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.org {
+  width: 1400px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.introduction {
+  border-top: 1px solid gray;
+  padding-left: 20px;
+  padding-top: 50px;
+  flex-direction: row;
+}
+
+.githubimg {
+  border-bottom: 1px solid gray;
+  padding-left: 20px;
+  padding-right: 50px;
+  width: 70px;
+}

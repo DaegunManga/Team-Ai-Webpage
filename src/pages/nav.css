@@ -1,0 +1,8 @@
+.title-text2:hover {
+  color: gray;
+  transition: 0.4s;
+}
+
+.introduction {
+  padding-left: 20px;
+}
