@@ -6,31 +6,21 @@ import logo from "./image/ailogo.png";
 import ldw from "./image/ldw.jpg";
 
 import "./App.css";
-import About from "./about/about.js";
+import About from "./pages/About.js";
+import Nav from "./pages/Nav.js";
+import Home from "./pages/home.js";
 
 function App() {
   return (
-    <div className="title">
-      <header className="title-header">
-        <img src={logo} className="title-logo" alt="logo" />
-
-        <BrowserRouter>
-          <Routes>
-            <Route path="./about/about.js" element={<About />} />
-          </Routes>
-
-          <Link to="About" className="tltle-text">
-            About
-          </Link>
-        </BrowserRouter>
-      </header>
-
-      <body>
-        <div className="body">
-          <img src={ldw} className="body-image" />
-          <p></p>
-        </div>
-      </body>
+    <div>
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
