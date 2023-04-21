@@ -2,8 +2,6 @@ import { Link, Route, BrowserRouter, Routes } from "react-router-dom";
 import { useState } from "react";
 import React from "react";
 
-import logo from "./image/ailogo.png";
-
 import "./App.css";
 import About from "./pages/About.js";
 import Nav from "./pages/Nav.js";

@@ -68,7 +68,7 @@ function App() {
             <h2>Minkyu Kwon</h2>
             <h4>Member</h4>
             {/* <a
-              href="https://github.com/DGchangbin"
+              href="https://github.com/"
               target="_blank"
               rel="noreferrer"
             >
