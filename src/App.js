@@ -7,6 +7,9 @@ import About from "./pages/About.js";
 import Nav from "./pages/Nav.js";
 import Home from "./pages/home.js";
 import Projects from "./pages/Projects.js";
+import Pylearn from "./pages/Projects/pylearn.js";
+import Chatbot from "./pages/Projects/chatbot.js";
+import Stt from "./pages/Projects/stt.js";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/" element={<Home />} />
+          <Route path="/pylearn" element={<Pylearn />} />
+          <Route path="/chatbot" element={<Chatbot />} />
+          <Route path="/stt" element={<Stt />} />
         </Routes>
       </BrowserRouter>
     </div>

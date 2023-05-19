@@ -4,3 +4,17 @@
   justify-content: center;
   flex-flow: column;
 }
+
+.project_explain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.project-text {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+  margin-right: 0px;
+  font-size: 20px;
+}
