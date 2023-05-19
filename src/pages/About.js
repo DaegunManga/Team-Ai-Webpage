@@ -3,6 +3,9 @@ import { useState } from "react";
 import React from "react";
 import { useScrollFadeIn } from "../animation.js";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import "./about.css";
 import org from "../image/organization.png";
 import github from "../image/github.png";
@@ -36,7 +39,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />{" "}
             </a>
           </div>
 
@@ -48,7 +55,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />{" "}
             </a>
           </div>
 
@@ -60,7 +71,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />{" "}
             </a>
           </div>
 
@@ -72,8 +87,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
-            </a> */}
+<FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />            </a> */}
           </div>
 
           <div {...animatedItem[6]} className="seungmo">
@@ -84,7 +102,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />
             </a>
           </div>
 
@@ -96,7 +118,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />
             </a>
           </div>
 
@@ -108,7 +134,11 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} className="githubimg" alt="face" />
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="githubimg"
+                alt="face"
+              />
             </a>
           </div>
         </div>
